@@ -125,20 +125,20 @@ return {
 ## Complete File Structure
 
 ~/.config/nvim/
-├── init.lua                    # Main entry point
-├── lazy-lock.json              # Plugin versions lock file
-└── lua/
-    ├── config/
-    │   ├── autocmds.lua        # Auto-commands
-    │   ├── keymaps.lua         # Custom keymaps (with TypeScript keymaps)
-    │   ├── lazy.lua            # Lazy.nvim configuration
-    │   └── options.lua         # Neovim options
-    └── plugins/
-        ├── lsp.lua             # LSP configuration (TypeScript setup)
-        ├── linting.lua         # ESLint and diagnostics
-        ├── extra.lua           # Additional plugins
-        ├── ...
-        └── **/*.lua            # Other plugin configurations
+├── init.lua                    # Main entry point  
+├── lazy-lock.json              # Plugin versions lock file  
+└── lua/  
+    ├── config/  
+    │   ├── autocmds.lua        # Auto-commands  
+    │   ├── keymaps.lua         # Custom keymaps (with TypeScript keymaps)  
+    │   ├── lazy.lua            # Lazy.nvim configuration  
+    │   └── options.lua         # Neovim options  
+    └── plugins/  
+        ├── lsp.lua             # LSP configuration (TypeScript setup)  
+        ├── linting.lua         # ESLint and diagnostics  
+        ├── extra.lua           # Additional plugins  
+        ├── ...  
+        └── **/*.lua            # Other plugin configurations  
 
 ## Key Commands
 
