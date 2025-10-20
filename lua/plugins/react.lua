@@ -7,7 +7,11 @@ return {
 
   -- Tailwind CSS support (if you use it with Next.js)
   {
-    "roobert/tailwindcss-colorizer-cmp.nvim",
-    config = true,
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        tailwindcss = {},
+      },
+    },
   },
 }

@@ -184,4 +184,15 @@ K             # Hover documentation
 sudo cp -r /home/mz/.config/nvim /home/ramboe/.config/
 sudo chown -R ramboe:ramboe /home/ramboe/.config/nvim
 ```
+
+
+### Resync if applyied some changes in a user 
+
+```bash
+# Sync entire config
+sudo rsync -av /home/mz/.config/nvim/ /home/ramboe/.config/nvim/
+
+# Fix ownership
+sudo chown -R ramboe:ramboe /home/ramboe/.config/nvim``
 ```
+
